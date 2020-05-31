@@ -1,0 +1,32 @@
+
+GIT Command :
+
+1 : git init
+2 : git add <file_name>
+3 : git status
+4 : git commit -m "commit message"
+# : git add adds the file to staging area
+# : git commit adds file from staging area to local repository.
+# : commiting is making check point
+
+# :      Working Directory       :         Staging Area      :         Local Repo(HEAD)     :   Remote Repo(MASTER)
+
+                          ----git add --->             ---git commit--->            --git push-->
+ 
+                <-------------git merge--------------------------------------   <-----------git fetch----------
+ 
+                <---------------------------------------git pull-----------------------------------------------
+
+HEAD : jiss jagah pr aabhi aap ho. Suppose we did two commits 1st helloWorld.java and 2nd forLoop.txt, So our HEAD is at forLoop.txt ka commit ke pass
+
+5 : git log
+6 : git rm --cached <file_name>   //Unstaging
+7 : git branch <branch_name>
+8 : git checkout <branch_name>
+9 : git merge <branch_name>    //to current branch
+10: git commit -am "This can skip staging area and directly will be commited"  
+
+
+
+  
+
