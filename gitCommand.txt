@@ -26,6 +26,8 @@ HEAD : jiss jagah pr aabhi aap ho. Suppose we did two commits 1st helloWorld.jav
 9 : git merge <branch_name>    //to current branch
 10: git commit -am "This can skip staging area and directly will be commited"  
 
+I am making change in Dev later i will merge on remote server to master
+
 
 
   
